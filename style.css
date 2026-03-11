@@ -1,0 +1,55 @@
+body{
+font-family:Arial;
+background:black;
+color: white;
+}
+
+.container{
+width:350px;
+margin:60px auto;
+background:#1e1e1e;
+padding:25px;
+border-radius:8px;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:5px 0 10px 0;
+background:#333;
+color:white;
+border:1px solid #555;
+}
+
+button{
+padding:10px;
+cursor:pointer;
+}
+
+small{
+color:red;
+}
+
+.passwordBox{
+display:flex;
+}
+
+.passwordBox input{
+flex:1;
+}
+
+.passwordBox button{
+width:80px;
+}
+
+.strength{
+height:6px;
+background:rgb(221, 221, 221);
+margin-bottom:10px;
+}
+
+#strengthBar{
+height:6px;
+width:0%;
+background:rgb(157, 0, 255);
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Registration Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Registration Form</h2>
+
+<form id="form">
+
+<label>Name</label>
+<input type="text" id="name">
+<small id="nameError"></small>
+
+<label>Email</label>
+<input type="text" id="email">
+<small id="emailError"></small>
+
+<label>Phone</label>
+<input type="text" id="phone">
+<small id="phoneError"></small>
+
+<label>Password</label>
+
+<div class="passwordBox">
+<input type="password" id="password">
+<button type="button" id="togglePassword">Show</button>
+</div>
+
+<div class="strength">
+<div id="strengthBar"></div>
+</div>
+
+<small id="passwordError"></small>
+
+<button type="submit">Register</button>
+
+</form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
